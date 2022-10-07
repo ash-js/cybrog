@@ -7,7 +7,7 @@ const App = () => {
             <Container>
                 <Hero/>
             </Container>
-            {/* <Footer /> */}
+            {/* k<Footer /> */}
         </>
     )
 }
