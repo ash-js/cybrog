@@ -1,8 +1,8 @@
 .hero-main {
     background: url('../../assets/images/banner-bg.jpg') no-repeat top right/cover;
-    background-color: #27292a;
-    color: white;
-    border-radius: 25px;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-radius: --border-radius-primary;
     padding: 50px;
 }
 .hero-text {
@@ -11,16 +11,16 @@
 .hero-title {
     font-size: 60px;
     text-transform: uppercase;
-    margin-bottom: 25px;
-    font-weight: 900;
+    margin-bottom: calc(var(--margin-primary) / 2);
+    font-weight: var(--font-weight-bold);
 }
 .hero-title em {
     font-size: normal;
-    color: #f03a83;
+    color: var(--color-primary);
 }
 .hero-subtitle {
     font-size: 20px;
     color: white;
-    margin-bottom: 25px;
-    font-weight: 400;
+    margin-bottom: calc(var(--margin-primary) / 2);
+    font-weight: var(--font-weight-normal);
 }
